@@ -31,10 +31,13 @@ public class SpringBootConsoleApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        // Put some space bewteen us and the "reflection" moaning ...
+        // Put some space between us and the "reflection" moaning ...
         System.out.println(" ");
+        System.out.println("===================== ");
         System.out.println(" ");
-        System.out.println(" ");
+
+
+        for (String s:args) {  System.out.println(s);}
 
 
 
